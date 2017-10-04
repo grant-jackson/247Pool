@@ -5,6 +5,9 @@ import { RouterModule, Routes, RouterLink } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from '../HomeComponent/home.component';
 import { PlayComponent } from '../PlayComponent/play.component';
+import { ResultsComponent } from '../ResultsComponent/results.Component';
+import { LeaderboardComponent } from '../LeaderboardComponent/Leaderboard.Component';
+import { AddUserComponent } from '../AddUserComponent/adduser.component';
 
 const appRoutes: Routes = [
   {
@@ -14,6 +17,18 @@ const appRoutes: Routes = [
   {
     path: 'play',
     component: PlayComponent
+  },
+  {
+    path: 'results',
+    component: ResultsComponent
+  },
+  {
+    path: 'leaderboard',
+    component: LeaderboardComponent
+  },
+  {
+    path: 'add-user',
+    component: AddUserComponent
   },
   { path: '',
     redirectTo: '/home',
@@ -25,7 +40,10 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    PlayComponent
+    PlayComponent,
+    ResultsComponent,
+    LeaderboardComponent,
+    AddUserComponent
   ],
   imports: [
     BrowserModule,
