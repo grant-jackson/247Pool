@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatchResult } from '../Models/MatchResult';
 
 @Component({
     selector: 'results-component',
@@ -10,12 +11,6 @@ export class ResultsComponent implements OnInit {
     constructor() { }
 
     ngOnInit() {
-
+        //get match results;
     }
-}
-
-class MatchResult {
-    Winner: string;
-    Loser: String;
-    GameDateTime: Date;
 }
