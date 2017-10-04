@@ -1,0 +1,183 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Application].[CreatedBy] on table [dbo].[Application] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[Application].[CreatedOn] on table [dbo].[Application] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[Application].[ModifiedBy] on table [dbo].[Application] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[Application].[ModifiedOn] on table [dbo].[Application] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[Asset].[CreatedBy] on table [dbo].[Asset] must be added, but the column has no default value and does
+         not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either:
+         add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a
+         deployment option.
+       The column [dbo].[Asset].[CreatedOn] on table [dbo].[Asset] must be added, but the column has no default value and does
+         not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either:
+         add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a
+         deployment option.
+       The column [dbo].[Asset].[ModifiedBy] on table [dbo].[Asset] must be added, but the column has no default value and does
+         not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either:
+         add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a
+         deployment option.
+       The column [dbo].[Asset].[ModifiedOn] on table [dbo].[Asset] must be added, but the column has no default value and does
+         not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either:
+         add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a
+         deployment option.
+       The column [dbo].[Customer].[CreatedBy] on table [dbo].[Customer] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Customer].[CreatedOn] on table [dbo].[Customer] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Customer].[ModifiedBy] on table [dbo].[Customer] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Customer].[ModifiedOn] on table [dbo].[Customer] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Decision].[CreatedBy] on table [dbo].[Decision] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Decision].[CreatedOn] on table [dbo].[Decision] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Decision].[ModifiedBy] on table [dbo].[Decision] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Decision].[ModifiedOn] on table [dbo].[Decision] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[EmploymentAddress].[CreatedBy] on table [dbo].[EmploymentAddress] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[EmploymentAddress].[CreatedOn] on table [dbo].[EmploymentAddress] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[EmploymentAddress].[ModifiedBy] on table [dbo].[EmploymentAddress] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+       The column [dbo].[EmploymentAddress].[ModifiedOn] on table [dbo].[EmploymentAddress] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+       The column [dbo].[Proposal].[CreatedBy] on table [dbo].[Proposal] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Proposal].[CreatedOn] on table [dbo].[Proposal] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Proposal].[ModifiedBy] on table [dbo].[Proposal] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Proposal].[ModifiedOn] on table [dbo].[Proposal] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[ResidentialAddress].[CreatedBy] on table [dbo].[ResidentialAddress] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+       The column [dbo].[ResidentialAddress].[CreatedOn] on table [dbo].[ResidentialAddress] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+       The column [dbo].[ResidentialAddress].[ModifiedBy] on table [dbo].[ResidentialAddress] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+       The column [dbo].[ResidentialAddress].[ModifiedOn] on table [dbo].[ResidentialAddress] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+
+** User actions
+     Alter
+       [dbo].[Application] (Table)
+       [dbo].[Asset] (Table)
+       [dbo].[Customer] (Table)
+       [dbo].[Decision] (Table)
+       [dbo].[EmploymentAddress] (Table)
+       [dbo].[Proposal] (Table)
+       [dbo].[ResidentialAddress] (Table)
+       [dbo].[Application_Insert] (Procedure)
+       [dbo].[Application_Update] (Procedure)
+       [dbo].[Asset_Insert] (Procedure)
+       [dbo].[Customer_Insert] (Procedure)
+       [dbo].[Customer_Update] (Procedure)
+       [dbo].[Decision_Insert] (Procedure)
+       [dbo].[EmploymentAddress_Insert] (Procedure)
+       [dbo].[EmploymentAddress_Update] (Procedure)
+       [dbo].[Proposal_Insert] (Procedure)
+       [dbo].[ResidentialAddress_Insert] (Procedure)
+       [dbo].[ResidentialAddress_Update] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[Application_Get] (Procedure)
+       [dbo].[Asset_Get] (Procedure)
+       [dbo].[Customer_Get] (Procedure)
+       [dbo].[Decision_Get] (Procedure)
+       [dbo].[EmploymentAddress_Delete] (Procedure)
+       [dbo].[EmploymentAddress_GetByCustomerId] (Procedure)
+       [dbo].[Proposal_Get] (Procedure)
+       [dbo].[ResidentialAddress_Delete] (Procedure)
+       [dbo].[ResidentialAddress_GetByCustomerId] (Procedure)
+
+The column [dbo].[Application].[CreatedBy] on table [dbo].[Application] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Application].[CreatedOn] on table [dbo].[Application] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Application].[ModifiedBy] on table [dbo].[Application] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Application].[ModifiedOn] on table [dbo].[Application] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Asset].[CreatedBy] on table [dbo].[Asset] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Asset].[CreatedOn] on table [dbo].[Asset] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Asset].[ModifiedBy] on table [dbo].[Asset] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Asset].[ModifiedOn] on table [dbo].[Asset] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Customer].[CreatedBy] on table [dbo].[Customer] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Customer].[CreatedOn] on table [dbo].[Customer] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Customer].[ModifiedBy] on table [dbo].[Customer] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Customer].[ModifiedOn] on table [dbo].[Customer] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Decision].[CreatedBy] on table [dbo].[Decision] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Decision].[CreatedOn] on table [dbo].[Decision] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Decision].[ModifiedBy] on table [dbo].[Decision] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Decision].[ModifiedOn] on table [dbo].[Decision] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[EmploymentAddress].[CreatedBy] on table [dbo].[EmploymentAddress] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[EmploymentAddress].[CreatedOn] on table [dbo].[EmploymentAddress] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[EmploymentAddress].[ModifiedBy] on table [dbo].[EmploymentAddress] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[EmploymentAddress].[ModifiedOn] on table [dbo].[EmploymentAddress] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Proposal].[CreatedBy] on table [dbo].[Proposal] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Proposal].[CreatedOn] on table [dbo].[Proposal] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Proposal].[ModifiedBy] on table [dbo].[Proposal] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Proposal].[ModifiedOn] on table [dbo].[Proposal] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ResidentialAddress].[CreatedBy] on table [dbo].[ResidentialAddress] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ResidentialAddress].[CreatedOn] on table [dbo].[ResidentialAddress] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ResidentialAddress].[ModifiedBy] on table [dbo].[ResidentialAddress] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ResidentialAddress].[ModifiedOn] on table [dbo].[ResidentialAddress] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

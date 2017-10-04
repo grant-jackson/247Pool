@@ -1,0 +1,10 @@
+C:\sourcecode\Carfinance.Poolleague\Carfinance.Poolleague.Schema\bin\Debug\Carfinance.Poolleague.Schema.dacpac
+C:\sourcecode\Carfinance.Poolleague\Carfinance.Poolleague.Schema\bin\Debug\Carfinance.Funding.Gateway.Schema.dll
+C:\sourcecode\Carfinance.Poolleague\Carfinance.Poolleague.Schema\bin\Debug\Carfinance.Funding.Gateway.Schema.pdb
+C:\sourcecode\Carfinance.Poolleague\Carfinance.Poolleague.Schema\obj\Debug\Carfinance.Funding.Gateway.Schema.dll
+C:\sourcecode\Carfinance.Poolleague\Carfinance.Poolleague.Schema\obj\Debug\Carfinance.Funding.Gateway.Schema.pdb
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\bin\Debug\Carfinance.Poolleague.Schema.dacpac
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\bin\Debug\Carfinance.Funding.Gateway.Schema.dll
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\bin\Debug\Carfinance.Funding.Gateway.Schema.pdb
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\obj\Debug\Carfinance.Funding.Gateway.Schema.dll
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\obj\Debug\Carfinance.Funding.Gateway.Schema.pdb

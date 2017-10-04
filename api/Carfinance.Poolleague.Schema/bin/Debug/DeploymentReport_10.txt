@@ -1,0 +1,18 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Asset] (Table)
+
+** Supporting actions
+
+If this deployment is executed, changes to [dbo].[Asset] might introduce run-time errors in [dbo].[Asset_Insert].
+
