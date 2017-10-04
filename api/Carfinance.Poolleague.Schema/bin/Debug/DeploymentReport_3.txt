@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AssetType] (Table)
+       [dbo].[DrivingLicenceType] (Table)
+       [dbo].[EmploymentStatus] (Table)
+       [dbo].[Gender] (Table)
+       [dbo].[ProposalStatus] (Table)
+       [dbo].[ResidentialStatus] (Table)
+       [dbo].[Title] (Table)
+
+** Supporting actions

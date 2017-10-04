@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Application] (Table)
+     Create
+       [dbo].[FK_Application_AssetId] (Foreign Key)
+       [dbo].[FK_Application_BrokerId] (Foreign Key)
+       [dbo].[FK_Application_CustomerId] (Foreign Key)
+       [dbo].[FK_Application_ProposalId] (Foreign Key)
+       [dbo].[FK_Customer_TitleId] (Foreign Key)
+       [dbo].[FK_EmploymentAddress_CustomerId] (Foreign Key)
+       [dbo].[FK_EmploymentAddress_EmploymentStatusId] (Foreign Key)
+       [dbo].[FK_Proposal_ApplicationId] (Foreign Key)
+       [dbo].[FK_Proposal_AssetId] (Foreign Key)
+       [dbo].[FK_Proposal_CustomerId] (Foreign Key)
+       [dbo].[FK_Proposal_DecisionId] (Foreign Key)
+       [dbo].[FK_Proposal_ProposalStatusId] (Foreign Key)
+       [dbo].[FK_ResidentialAddress_CustomerId] (Foreign Key)
+       [dbo].[FK_ResidentialAddress_ResidentialStatusId] (Foreign Key)
+
+** Supporting actions
