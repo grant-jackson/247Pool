@@ -1,15 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, RouterLink } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from '../HomeComponent/home.component';
+import { PlayComponent } from '../PlayComponent/play.component';
 
 const appRoutes: Routes = [
   {
     path: 'home',
-    component: HomeComponent,
-    data: { title: 'Heroes List' }
+    component: HomeComponent
+  },
+  {
+    path: 'play',
+    component: PlayComponent
   },
   { path: '',
     redirectTo: '/home',
@@ -20,7 +24,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PlayComponent
   ],
   imports: [
     BrowserModule,
