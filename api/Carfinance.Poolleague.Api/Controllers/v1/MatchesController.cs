@@ -11,6 +11,8 @@ using Carfinance.Poolleague.Gateway.Api.Models.v1;
 using Carfinance.Poolleague.Gateway.Api.Models;
 using Carfinance.Poolleague.Api.Services.v1.Interfaces;
 using Carfinance.Poolleague.Api.Models.v1;
+using static Carfinance.Poolleague.Api.Controllers.v1.Elo;
+using Carfinance.Poolleague.Api.Controllers.v1;
 
 namespace Carfinance.Poolleague.Gateway.Api.Controllers.v1
 {
@@ -46,14 +48,25 @@ namespace Carfinance.Poolleague.Gateway.Api.Controllers.v1
 
             await _matchService.CreateAsync(match);
 
-            var winner = _userService.GetAsync(match.WinnerId);
+            var winner = await _userService.GetAsync(match.WinnerId);
 
-            var loser = _userService.GetAsync(match.LoserId);
+            var loser = await _userService.GetAsync(match.LoserId);
 
             //calculate score
+            var playerW = new Player();
+            var playerL = new Player();
+            playerW.id = winner.Id;
+            playerW.rating = winner.Elo;
+            playerL.id = loser.Id;
+            playerL.rating = loser.Elo;
+
+            winner.Elo = Elo.WinnerRating(playerW, playerL);
+            loser.Elo = Elo.LoserRating(playerW, playerL);
+
+            await _userService.UpdateAsync(winner);
+            await _userService.UpdateAsync(loser);
 
             //log result to slack
-
 
             return CreatedAtRoute("UserMatch", new CreateResponse { Id = match.Id.ToString() });
         }
