@@ -1,0 +1,5 @@
+C:\sourcecode\Carfinance.Funding.Gateway\Carfinance.Funding.Gateway.Schema\bin\Debug\Carfinance.Funding.Gateway.Schema.dacpac
+C:\sourcecode\Carfinance.Funding.Gateway\Carfinance.Funding.Gateway.Schema\bin\Debug\Carfinance.Funding.Gateway.Schema.dll
+C:\sourcecode\Carfinance.Funding.Gateway\Carfinance.Funding.Gateway.Schema\bin\Debug\Carfinance.Funding.Gateway.Schema.pdb
+C:\sourcecode\Carfinance.Funding.Gateway\Carfinance.Funding.Gateway.Schema\obj\Debug\Carfinance.Funding.Gateway.Schema.dll
+C:\sourcecode\Carfinance.Funding.Gateway\Carfinance.Funding.Gateway.Schema\obj\Debug\Carfinance.Funding.Gateway.Schema.pdb

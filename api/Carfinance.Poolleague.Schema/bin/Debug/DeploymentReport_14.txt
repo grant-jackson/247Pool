@@ -1,0 +1,57 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Application] (Table)
+       [dbo].[Asset] (Table)
+       [dbo].[AssetType] (Table)
+       [dbo].[Broker] (Table)
+       [dbo].[Customer] (Table)
+       [dbo].[Decision] (Table)
+       [dbo].[DrivingLicenceType] (Table)
+       [dbo].[EmploymentAddress] (Table)
+       [dbo].[EmploymentStatus] (Table)
+       [dbo].[Gender] (Table)
+       [dbo].[MaritalStatus] (Table)
+       [dbo].[Proposal] (Table)
+       [dbo].[ProposalStatus] (Table)
+       [dbo].[ResidentialAddress] (Table)
+       [dbo].[ResidentialStatus] (Table)
+       [dbo].[Title] (Table)
+       [dbo].[FK_Application_BrokerId] (Foreign Key)
+       [dbo].[FK_Application_ProposalId] (Foreign Key)
+       [dbo].[FK_Customer_TitleId] (Foreign Key)
+       [dbo].[FK_EmploymentAddress_CustomerId] (Foreign Key)
+       [dbo].[FK_EmploymentAddress_EmploymentStatusId] (Foreign Key)
+       [dbo].[FK_Proposal_ApplicationId] (Foreign Key)
+       [dbo].[FK_Proposal_CustomerId] (Foreign Key)
+       [dbo].[FK_Proposal_AssetId] (Foreign Key)
+       [dbo].[FK_Proposal_DecisionId] (Foreign Key)
+       [dbo].[FK_Proposal_ProposalStatusId] (Foreign Key)
+       [dbo].[FK_ResidentialAddress_CustomerId] (Foreign Key)
+       [dbo].[FK_ResidentialAddress_ResidentialStatusId] (Foreign Key)
+       [dbo].[Application_Get] (Procedure)
+       [dbo].[Application_Insert] (Procedure)
+       [dbo].[Application_Update] (Procedure)
+       [dbo].[Asset_Get] (Procedure)
+       [dbo].[Asset_Insert] (Procedure)
+       [dbo].[Customer_Get] (Procedure)
+       [dbo].[Customer_Insert] (Procedure)
+       [dbo].[Decision_Get] (Procedure)
+       [dbo].[Decision_Insert] (Procedure)
+       [dbo].[EmploymentAddress_GetByCustomerId] (Procedure)
+       [dbo].[EmploymentAddress_Insert] (Procedure)
+       [dbo].[Proposal_Get] (Procedure)
+       [dbo].[Proposal_Insert] (Procedure)
+       [dbo].[ResidentialAddress_GetByGustomerId] (Procedure)
+       [dbo].[ResidentialAddress_Insert] (Procedure)
+
+** Supporting actions
