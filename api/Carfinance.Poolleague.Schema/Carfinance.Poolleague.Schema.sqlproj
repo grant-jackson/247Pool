@@ -73,6 +73,7 @@
     <Build Include="StoredProcedures\User_Update.sql" />
     <Build Include="StoredProcedures\User_GetAll.sql" />
     <Build Include="Schema\Tables\Match.sql" />
+    <Build Include="StoredProcedures\Match_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Carfinance.Poolleague.Schema.refactorlog" />

@@ -74,6 +74,7 @@ namespace Carfinance.Poolleague.Gateway.Api
             services.AddTransient<IAuthorizationHandler, AccessTypePolicyHandler>();
             services.AddTransient<IAuthorizationHandler, AccessTypePolicyAttributeHandler>();
             services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IMatchService, MatchService>();
             services.AddTransient<IDbConnectionFactory>(s => new SqlConnectionFactory(Configuration["ConnectionString"]));
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
