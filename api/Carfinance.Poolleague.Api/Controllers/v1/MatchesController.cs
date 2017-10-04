@@ -17,13 +17,13 @@ namespace Carfinance.Poolleague.Gateway.Api.Controllers.v1
     [Produces("application/json")]
     //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/v1/[controller]")]
-    public class UsersController : Controller
+    public class MatchesController : Controller
     {
         private readonly IConfiguration _configuration;
         private readonly Serilog.ILogger _logger;
         private readonly IUserService _userService;
 
-        public UsersController(IConfiguration configuration, Serilog.ILogger logger, IUserService userService)
+        public MatchesController(IConfiguration configuration, Serilog.ILogger logger, IUserService userService)
         {
             _configuration = configuration;
             _logger = logger.ForContext<UsersController>();
