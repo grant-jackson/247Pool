@@ -6,7 +6,16 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ResultsComponent implements OnInit {
+    listOfResults: Array<MatchResult>;
     constructor() { }
 
-    ngOnInit() { }
+    ngOnInit() {
+
+    }
+}
+
+class MatchResult {
+    Winner: string;
+    Loser: String;
+    GameDateTime: Date;
 }
