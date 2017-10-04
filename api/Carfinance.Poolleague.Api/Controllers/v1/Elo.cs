@@ -30,7 +30,7 @@ namespace Carfinance.Poolleague.Api.Controllers.v1
         }
         public static double WinProbability(Player a, Player b)
         {
-            return 1 / (1 + Math.Pow(10, (a.rating - b.rating) / 400));
+            return 1 / (1 + Math.Pow(10, (b.rating - a.rating) / 400));
         }
         public static int WinnerRating(Player winner, Player loser)
         {

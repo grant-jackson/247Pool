@@ -8,3 +8,7 @@ C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\bin\Debug\Carfinance.Fund
 C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\bin\Debug\Carfinance.Funding.Gateway.Schema.pdb
 C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\obj\Debug\Carfinance.Funding.Gateway.Schema.dll
 C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\obj\Debug\Carfinance.Funding.Gateway.Schema.pdb
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\obj\Debug\Model.xml
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\obj\Debug\refactor.xml
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\obj\Debug\postdeploy.sql
+C:\sourcecode\247Pool\api\Carfinance.Poolleague.Schema\obj\Debug\predeploy.sql
