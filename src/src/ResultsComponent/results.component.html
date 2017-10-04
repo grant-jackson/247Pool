@@ -1,0 +1,18 @@
+<h1>Match Results</h1>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Winner</th>
+            <th>Loser</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="let x in listOfResults">
+            <td>{{ x.Winner }}</td>
+            <td>{{ x.Loser }}</td>
+            <td>{{ x.GameDateTime }}</td>
+        </tr>
+    </tbody>
+</table>

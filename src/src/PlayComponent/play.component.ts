@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
     selector: 'play-component',
@@ -6,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class PlayComponent implements OnInit {
-    constructor() { }
+    player1: String = 'Select Player One';
+    player2: String = 'Select Player Two';
+    listOfPlayers: Array<String> = ['Grant', 'Gareth', 'Paul'];
 
-    ngOnInit() { }
+    constructor() {
+    }
+
+    ngOnInit() {
+        // GetPlayers
+        // listOfPLayers = playerService.getPLayers();
+    }
 }

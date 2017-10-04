@@ -1,26 +1,25 @@
 <h1>Play a Game</h1>
 <div class="row">
     <div class="col-6">
-        <p><strong>Player 1:</strong></p>
+        <label for="player1">Player 1:</label>
+        <select id="player1" [(ngModel)]="player1" style="width:100%" class="form-control">
+            <option *ngFor="let x of listOfPlayers">{{ x }}</option>
+        </select>
     </div>
-    <div class="col-6">
-        dropdown
-    </div>
-</div>
-<div class="row">
-    <div class="col-6">
-        <p><strong>Player 2:</strong></p>
-    </div>
-    <div class="col-6">
-        dropdown
+    <div class="col-6">        
+    <label for="player2">Player 2:</label>
+        <select id="player2" [(ngModel)]="player2" style="width:100%" class="form-control">
+            <option *ngFor="let x of listOfPlayers">{{ x }}</option>
+        </select>
     </div>
 </div>
+<hr>
 <h2>Who won?</h2>
 <div class="row">
     <div class="col-6">
-        <a href="" class="btn btn-primary btn-block">player 1 name</a>
+        <a href="" class="btn btn-success btn-block">{{ player1 }}</a>
     </div>
     <div class="col-6">
-        <a href="" class="btn btn-primary btn-block">player 2 name</a>
+        <a href="" class="btn btn-success btn-block">{{ player2 }}</a>
     </div>
 </div>
